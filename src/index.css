@@ -1,0 +1,8 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  background: linear-gradient(to top right, rgb(241,241,241) 50%, rgb(158,232,255) 50%);
+}
+

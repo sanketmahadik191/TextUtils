@@ -1,0 +1,25 @@
+.preview{
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    max-width: 1200px;
+    margin-top: 45px;
+}
+
+.preview textarea{
+    width: 100%;
+    height: 120px;
+}
+
+@media screen and (max-width: 500px) {
+    .preview{
+        padding: 0 15px;
+        width: 90%;
+        margin-top: 15px;
+    }
+    
+    .preview textarea{
+        width: 100%;
+        height: 100px;
+    }
+}
