@@ -2,6 +2,8 @@ import React, { useReducer, useState } from 'react';
 import './App.css';
 import { Main } from './components/Main';
 import { Preview } from './components/Preview';
+import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar'
 
 const initialState = {
   text: '',
@@ -76,6 +78,7 @@ const App = () => {
 
   return (
     <div className={`App ${darkMode ? 'dark' : 'light'}`}>
+      <Navbar></Navbar>
       <Main
         text={text}
         darkMode={darkMode}
@@ -90,6 +93,7 @@ const App = () => {
         toggleTheme={toggleTheme}
       />
       <Preview text={text} darkMode={darkMode} />
+      <Footer />
     </div>
   );
 };
